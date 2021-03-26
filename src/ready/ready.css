@@ -1,0 +1,40 @@
+.r-p1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    padding-top: 90px;
+    color: #FFFFFF;
+    /* letter-spacing:2.1px; */
+}
+.r-p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 20px;
+    color: #BBB6B6;
+    padding-bottom: 100px;
+ 
+}
+.r-img{
+    position:absolute;
+    margin-left: 340px;
+    margin-top: 96px;
+}
+
+.ready-bg-img{
+   
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    margin-top: 46px;
+}
+.ready-bg-main{
+    background-image: url(../images/pondith-bg3.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+
+}

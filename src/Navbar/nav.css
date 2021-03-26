@@ -1,0 +1,111 @@
+.nav-btn{
+    padding: 6px 16px !important;
+    background:#FF1C1C !important;
+    line-height: 30.41px !important;
+    font-size: 18px !important;
+}
+.navbar-toggler-icon{
+    color:white !important;
+}
+.navbar-collapse{
+    background:#1C1C1C;
+    padding: 5px;
+    padding-bottom:20px;
+    border-radius: 6px
+}
+.nav-hov:hover{
+    border-bottom: 3px solid white;
+    transition:.4s;
+}
+.nav-hov:focus{
+    border-bottom: 3px solid white;
+    transition:.4s;
+}
+.navbar-nav{
+    margin-top:2px;
+}
+#basic-navbar-nav{
+    margin-top:-5px ;
+    padding-bottom: 0px;
+}
+.nirob{
+    position: relative;
+}
+.nadim{
+    position: absolute;
+    
+ } 
+/* switch */
+/* input[type="checkbox"]{
+    position:relative;
+    width: 55px;
+    height:25px;
+    background:#bdc3c7;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    outline: none;
+    transition: .4s;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+} */
+/* input:checked[type="checkbox"]{
+    background-color:#F92929;
+} */
+/* input[type="checkbox"]::before{
+    z-index:2;
+    position: absolute;
+    content: "";
+    left:0;
+    width: 25px;
+    height: 25px;
+    background:#fff;
+    border-radius: 50%;
+    transform: scale(1.2);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: 0.4s;
+} */
+/* input:checked[type="checkbox"]::before{
+    left:30px;
+} */ */
+/* .toggle{
+    position:relative;
+    display:inline;
+}
+label{
+    position:absolute;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    pointer-events: none;
+}
+.onbtn{
+    bottom: -1px;
+    left: 6px;
+    font-size: 12px;
+}
+.ofbtn{
+    bottom: -1px;
+    right: 7px;
+    color: #34495e;
+    font-size: 12px;
+} */
+
+/* .toggleBox{
+    margin-left: 30px;
+    margin-right:40px;
+} */
+
+.nav-bg{
+    box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+-webkit-box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+-moz-box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+}
+.sw:focus{
+    background-color:gray;
+}
+.sw:active{
+    background-color:gray;
+}
+.sw{
+    background-color:red
+}

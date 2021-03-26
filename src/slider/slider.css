@@ -1,0 +1,107 @@
+.slick-arrow{
+    
+    color:black !important;
+}
+.slick-prev:before {
+    content: '←';
+    color: #C4C4C4 !important;
+    font-size: 45px;
+    margin-top: -418px;
+    position: absolute;
+    margin-left: 903px;
+}
+.slick-prev:hover::before{
+    color:#F4371D !important;
+}
+.slick-next:hover::before{
+    color:#F4371D !important;
+}
+.slick-prev:focus::before{
+    color:#F4371D !important;
+}
+.slick-next:focus::before{
+    color:#F4371D !important;
+}
+
+.slick-next:before {
+    position:absolute;
+    color: #C4C4C4 !important;
+    font-size: 45px;
+    margin-top: -418px;
+    margin-left: -210px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #C4C4C4;
+   
+}
+.slick-dots li {
+    color:red !important;
+    background-color:red
+}
+
+
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    content:"hi" ;
+   
+}
+.slick-dots li button:before {
+    content: ' nirob';
+}
+.cart-btn:hover{
+    background:#FF290C !important;
+    color:white !important;
+    cursor: pointer;
+}
+.cart-btn:hover:active{
+    background:#FF290C !important;
+}
+.course-sw:hover  .cart-btn{
+    background:#FF290C !important;
+    color:white !important;
+    cursor: pointer;
+    transition: .5s;
+}
+.course-sw:hover{
+    box-shadow: 0px 4px 30px rgba(90, 87, 87, 0.25);
+    -webkit-box-shadow: -1px 14px 50px 14px rgba(186,186,186,0.82); 
+    box-shadow: 2px 16px 50px -22px rgba(196,196,196,0.7);
+    cursor: pointer;
+}
+.bdj{
+    position:absolute;
+    margin-top: -46px;
+    margin-left: -23px;
+}
+.bdj-p{
+    position:absolute;
+    margin-top: -35px;
+    margin-left: -9px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 12px;
+
+color: #FFFCFC;
+
+}
+.cardBody{
+    position: relative;
+}
+.card-body{
+    padding:20px 20px 5px 20px !important;
+}

@@ -1,0 +1,42 @@
+.ex-btn:hover{
+    background:#F92929;
+    transition:.4s;
+}
+.bg-home{
+    background-image: url(/src/images/bg1.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero-robot{
+    margin-left: 1270px;
+    margin-top: 317px;
+    position: absolute;
+}
+@media only screen and (max-width: 1440px) {
+    .hero-robot{
+        margin-left: 915px !important;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .hero-robot{
+        margin-left: 755px !important;
+    }
+}
+@media only screen and (max-width: 1920px)and (min-width: 1641px){
+    .hero-robot{
+        margin-left: 1392px  !important;
+    }
+}
+@media only screen and (max-width: 1751px)and (min-width: 1542px){
+    .hero-robot{
+        margin-left: 1162px  !important;
+    }
+}
+@media only screen and (max-width: 1542px)and (min-width: 1442px){
+    .hero-robot{
+        margin-left: 1006px   !important;
+    }
+}
